@@ -1,47 +1,55 @@
-* {
+*{
     box-sizing: border-box;
 }
-
-body {
-    margin: 0%
+body{
+    margin: 0%;
+    background: url(/images/beach-sunset-i78770.jpg) no-repeat;
+    background-size: cover;
+    /* width: 100vh; */
 }
 .row{
-    overflow: auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content:flex-start;
+    color: rgba(7, 19, 24, 0.829);
 }
-.header {
-    height: 100px;
-    background-color: black;
+.menu{
+    padding-top: 30px;
+    margin: 20px;
 }
-
-.aside-left,
-.aside-right,
-.main {
-    float: left;
+.menu>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+ padding-top: 0%;
 }
-
-.aside-left {
-    background-color: beige;
-    width: 13%;
-    height: 400px;
-
+.blog,.contact{
+    float: right;
 }
-
-.main {
-    height: max-content;
+.fixed{
+    position: fixed;
     background-color: aquamarine;
-    height: 400px;
-    width: 75%;
+    height: 30px;
+    padding-top: 5px;
+
+}
+p{
+    font-size: 20px;
+    padding-bottom: 50px;
+    color: rgba(14, 41, 53, 0.829);
+}
+.main>a{
+    text-decoration: none;
+    color: rgb(160, 69, 76);
+    font-size: 20px;
+    padding: 20px;
+    
 }
 
-.aside-right {
-    background-color: beige;
-    width: 12%;
-    height: 400px;
-}
-
-.footer {
-    height: 100px;
-    background-color: black;
-    margin-top: 20px;
-    /* clear: both; */
+.p-dive{
+    float: left;
+    /* margin-left: 50%; */
+    width: 600px;
+    position: fixed;
+    border: 1px solid gray;
 }
