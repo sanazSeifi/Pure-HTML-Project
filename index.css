@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%
+}
+.row{
+    overflow: auto;
+}
+.header {
+    height: 100px;
+    background-color: black;
+}
+
+.aside-left,
+.aside-right,
+.main {
+    float: left;
+}
+
+.aside-left {
+    background-color: beige;
+    width: 13%;
+    height: 400px;
+
+}
+
+.main {
+    height: max-content;
+    background-color: aquamarine;
+    height: 400px;
+    width: 75%;
+}
+
+.aside-right {
+    background-color: beige;
+    width: 12%;
+    height: 400px;
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+    margin-top: 20px;
+    /* clear: both; */
+}
